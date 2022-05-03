@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 63463795}
   - component: {fileID: 63463794}
   m_Layer: 0
-  m_Name: Push (1)
+  m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -740,7 +740,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591344372}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.381, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.15, z: 0.5}
   m_Children: []
   m_Father: {fileID: 96088779}
@@ -760,7 +760,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!23 &591344375
 MeshRenderer:
@@ -1463,7 +1463,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23100
+  m_Name: pb_Mesh20754
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1648,7 +1648,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913471970}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.561, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 0.4, y: 0.05, z: 0.4}
   m_Children:
   - {fileID: 63463793}
@@ -1667,7 +1667,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 1, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 1.5333325, z: 0}
+  m_ConnectedAnchor: {x: 0, y: 1.6666665, z: 0}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -1766,7 +1766,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &1913471974
 BoxCollider:
   m_ObjectHideFlags: 0
