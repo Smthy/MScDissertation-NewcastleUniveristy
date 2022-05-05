@@ -248,6 +248,7 @@ GameObject:
   - component: {fileID: 213173823}
   - component: {fileID: 213173822}
   - component: {fileID: 213173821}
+  - component: {fileID: 213173824}
   m_Layer: 0
   m_Name: Push
   m_TagString: Untagged
@@ -282,7 +283,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 2.004999, z: 0}
+  m_ConnectedAnchor: {x: 0, y: 2.004999, z: -0.00000022351742}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -295,7 +296,7 @@ ConfigurableJoint:
     spring: 0
     damper: 0
   m_LinearLimit:
-    limit: 0.25
+    limit: 0.015
     bounciness: 0
     contactDistance: 0
   m_AngularXLimitSpring:
@@ -395,6 +396,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.05, z: 0.11}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &213173824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213173819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78ac2b171812f54894258078c3fb813, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: 0.15
+  deadzone: 0.1
+  onPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 366324019}
+        m_TargetAssemblyTypeName: ActivateText, Assembly-CSharp
+        m_MethodName: _ActivateText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onReleased:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &366324014
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,6 +440,7 @@ GameObject:
   - component: {fileID: 366324018}
   - component: {fileID: 366324017}
   - component: {fileID: 366324016}
+  - component: {fileID: 366324019}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -495,6 +529,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &366324019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366324014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 613213408b1593041be6ad7aa0f145c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1763141277}
 --- !u!1 &481035299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,7 +1708,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1763141278
 RectTransform:
   m_ObjectHideFlags: 0
