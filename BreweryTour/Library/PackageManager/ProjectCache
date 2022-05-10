@@ -1246,6 +1246,7 @@ m_PackageAssets:
         - 2.0.0-pre.7
         - 2.0.0
         - 2.0.1
+        - 2.0.2
         compatible:
         - 0.0.6-preview
         - 0.9.0-preview
@@ -1266,6 +1267,7 @@ m_PackageAssets:
         - 2.0.0-pre.7
         - 2.0.0
         - 2.0.1
+        - 2.0.2
         verified: 
       dependencies:
       - name: com.unity.ugui
