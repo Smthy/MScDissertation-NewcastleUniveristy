@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637870991377403302
-    m_Hash: 4229612713
+      ticks: 637877876580323623
+    m_Hash: 1976414899
   m_LockFileStatus:
     m_FilePath: C:/Users/Owner/source/repos/MScDissertation-NewcastleUniveristy/BreweryTour/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637870991378899035
-    m_Hash: 3623817674
+      ticks: 637877876580353532
+    m_Hash: 2432613828
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
