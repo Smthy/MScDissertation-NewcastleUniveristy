@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637871731728905524
-    m_Hash: 1976414899
+      ticks: 637879565711456743
+    m_Hash: 1591411822
   m_LockFileStatus:
     m_FilePath: C:/Development/MScDissertation-NewcastleUniveristy/BreweryTour/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637871731728905524
-    m_Hash: 2432613828
+      ticks: 637879565711526556
+    m_Hash: 383516737
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -280,12 +280,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.12
+    - packageId: com.unity.ide.visualstudio@2.0.15
       testable: 0
       isDirectDependency: 1
-      version: 2.0.12
+      version: 2.0.15
       source: 1
-      resolvedPath: C:\Development\MScDissertation-NewcastleUniveristy\BreweryTour\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
+      resolvedPath: C:\Development\MScDissertation-NewcastleUniveristy\BreweryTour\Library\PackageCache\com.unity.ide.visualstudio@2.0.15
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -365,13 +365,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637720564750000000
+      datePublishedTicks: 637841884840000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: 8d436ff053b9c59677b5e9799208143553cd02d9
+        revision: ca1ece42f5a2c5484ba15a15bb975ccc1f6a1a3c
         path: 
     - packageId: com.unity.ide.vscode@1.2.4
       testable: 0
@@ -1246,6 +1246,8 @@ m_PackageAssets:
         - 2.0.0-pre.7
         - 2.0.0
         - 2.0.1
+        - 2.0.2
+        - 2.1.0-pre.1
         compatible:
         - 0.0.6-preview
         - 0.9.0-preview
@@ -1266,6 +1268,8 @@ m_PackageAssets:
         - 2.0.0-pre.7
         - 2.0.0
         - 2.0.1
+        - 2.0.2
+        - 2.1.0-pre.1
         verified: 
       dependencies:
       - name: com.unity.ugui
@@ -3803,6 +3807,7 @@ m_PackageAssets:
         - 1.2.0
         - 1.3.1
         - 1.3.2
+        - 1.4.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3815,6 +3820,7 @@ m_PackageAssets:
         - 1.2.0
         - 1.3.1
         - 1.3.2
+        - 1.4.0
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
