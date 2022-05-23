@@ -320,7 +320,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3, y: -27}
+  m_AnchoredPosition: {x: 3, y: -1}
   m_SizeDelta: {x: -148.7, y: -112.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3065504775664358988
@@ -353,20 +353,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e5660027418d9cb4bb3b3c5854339c37, type: 3}
-    m_FontSize: 40
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Settings
+  m_Text: '800 Liter
 
-'
+    Tank'
 --- !u!114 &3065504775664358990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -417,7 +417,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3, y: -27}
+  m_AnchoredPosition: {x: 3, y: -42}
   m_SizeDelta: {x: -148.7, y: -112.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3065504775712920825
@@ -450,18 +450,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e5660027418d9cb4bb3b3c5854339c37, type: 3}
-    m_FontSize: 40
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Settings
+  m_Text: 'Masher
 
 '
 --- !u!114 &3065504775712920827
@@ -514,7 +514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3, y: -27}
+  m_AnchoredPosition: {x: 3, y: -3}
   m_SizeDelta: {x: -148.7, y: -112.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3065504775862423991
@@ -547,20 +547,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e5660027418d9cb4bb3b3c5854339c37, type: 3}
-    m_FontSize: 40
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Settings
+  m_Text: 'Middle of
 
-'
+    Room'
 --- !u!114 &3065504775862423985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 3065504775999553546}
   - component: {fileID: 3065504775999553547}
   m_Layer: 0
-  m_Name: Cooling Plate System
+  m_Name: Pressurised Vessel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -740,16 +740,16 @@ RectTransform:
   m_GameObject: {fileID: 3065504775999553541}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.55341554, y: 0.55341554, z: 0}
+  m_LocalScale: {x: 0.5534155, y: 0.55341554, z: 0}
   m_Children:
   - {fileID: 3065504776894043271}
   m_Father: {fileID: 3065504776175791315}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.03831017, y: 0.5}
   m_AnchorMax: {x: 0.2512226, y: 0.68100005}
-  m_AnchoredPosition: {x: 225.59998, y: -84}
-  m_SizeDelta: {x: 113.745964, y: 63.398933}
+  m_AnchoredPosition: {x: 225.60007, y: -83.99997}
+  m_SizeDelta: {x: 113.74597, y: 63.398926}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3065504775999553544
 CanvasRenderer:
@@ -883,7 +883,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3, y: -27}
+  m_AnchoredPosition: {x: 3, y: 0}
   m_SizeDelta: {x: -148.7, y: -112.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3065504776009159615
@@ -916,20 +916,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e5660027418d9cb4bb3b3c5854339c37, type: 3}
-    m_FontSize: 40
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
-    m_MaxSize: 50
+    m_MinSize: 1
+    m_MaxSize: 100
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Settings
-
-'
+  m_Text: Back
 --- !u!114 &3065504776009159609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1212,7 +1210,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3, y: -27}
+  m_AnchoredPosition: {x: 3, y: -2}
   m_SizeDelta: {x: -148.7, y: -112.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3065504776105244739
@@ -1245,20 +1243,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e5660027418d9cb4bb3b3c5854339c37, type: 3}
-    m_FontSize: 40
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Settings
+  m_Text: '400 Liter
 
-'
+    Tanks'
 --- !u!114 &3065504776105244797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1309,9 +1307,9 @@ RectTransform:
   - {fileID: 3065504777236542363}
   - {fileID: 3065504776927102313}
   - {fileID: 3065504776914067354}
-  - {fileID: 3065504776555077933}
-  - {fileID: 3065504777443021335}
   - {fileID: 3065504775999553540}
+  - {fileID: 3065504777443021335}
+  - {fileID: 3065504776555077933}
   - {fileID: 3065504776933429603}
   - {fileID: 3065504776064123152}
   - {fileID: 3065504776250793968}
@@ -1768,7 +1766,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3, y: -27}
+  m_AnchoredPosition: {x: 1, y: -1}
   m_SizeDelta: {x: -148.7, y: -112.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3065504776513480756
@@ -1801,20 +1799,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e5660027418d9cb4bb3b3c5854339c37, type: 3}
-    m_FontSize: 40
+    m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
-    m_MaxSize: 50
+    m_MinSize: 0
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Settings
+  m_Text: 'Cooling Sytem
 
-'
+    For Tanks'
 --- !u!114 &3065504776513480758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,7 +1842,7 @@ GameObject:
   - component: {fileID: 3065504776555077939}
   - component: {fileID: 3065504776555077932}
   m_Layer: 0
-  m_Name: Pressurised Vessel
+  m_Name: Cooling System Playes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1863,7 +1861,7 @@ RectTransform:
   m_Children:
   - {fileID: 3065504776513480759}
   m_Father: {fileID: 3065504776175791315}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.03831017, y: 0.5}
   m_AnchorMax: {x: 0.2512226, y: 0.68100005}
@@ -2002,7 +2000,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3, y: -27}
+  m_AnchoredPosition: {x: 3, y: 1}
   m_SizeDelta: {x: -148.7, y: -112.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3065504776824314842
@@ -2035,20 +2033,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e5660027418d9cb4bb3b3c5854339c37, type: 3}
-    m_FontSize: 40
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Settings
+  m_Text: 'Cooling
 
-'
+    System'
 --- !u!114 &3065504776824314836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2099,7 +2097,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3, y: -27}
+  m_AnchoredPosition: {x: 0, y: -0}
   m_SizeDelta: {x: -148.7, y: -112.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3065504776863387871
@@ -2132,20 +2130,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e5660027418d9cb4bb3b3c5854339c37, type: 3}
-    m_FontSize: 40
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
-    m_MaxSize: 50
+    m_MinSize: 0
+    m_MaxSize: 100
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Settings
-
-'
+  m_Text: Kettle
 --- !u!114 &3065504776863387865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2196,7 +2192,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3, y: -27}
+  m_AnchoredPosition: {x: 3, y: -3}
   m_SizeDelta: {x: -148.7, y: -112.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3065504776894043268
@@ -2229,7 +2225,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e5660027418d9cb4bb3b3c5854339c37, type: 3}
-    m_FontSize: 40
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
@@ -2240,9 +2236,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Settings
+  m_Text: 'Pressurised
 
-'
+    Vessel'
 --- !u!114 &3065504776894043270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3044,7 +3040,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3, y: -27}
+  m_AnchoredPosition: {x: 3, y: -6}
   m_SizeDelta: {x: -148.7, y: -112.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3065504777032989778
@@ -3077,20 +3073,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e5660027418d9cb4bb3b3c5854339c37, type: 3}
-    m_FontSize: 40
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
-    m_MaxSize: 50
+    m_MinSize: 0
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Settings
+  m_Text: 'Fermentation
 
-'
+    Vessel'
 --- !u!114 &3065504777032989772
 MonoBehaviour:
   m_ObjectHideFlags: 0
