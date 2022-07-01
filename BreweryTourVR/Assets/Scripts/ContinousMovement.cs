@@ -13,7 +13,12 @@ public class ContinousMovement : MonoBehaviour
 
     private CharacterController character;
 
+    public float height = 0.2f;
     public float speed = 1.0f;
+    public float gravity = -9.81f;
+    private float fallspeed;
+
+    public LayerMask groundLayer;
     
     void Start()
     {
@@ -30,11 +35,43 @@ public class ContinousMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        CapsuleFollowHeadset();
+
         Quaternion headYaw = Quaternion.Euler(0, rig.cameraGameObject.transform.eulerAngles.y, 0);
         Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y);
 
         character.Move(direction * Time.fixedDeltaTime * speed);
+
+        bool isGrounded = CheckIfGrounded();
+
+        if (isGrounded)
+        {
+            fallspeed = 0;
+        }
+        else
+        {
+            fallspeed += gravity * Time.fixedDeltaTime;
+        }
+        
+        character.Move(Vector3.up * fallspeed * Time.fixedDeltaTime);
+
     }
+
+    void CapsuleFollowHeadset()
+    {
+        character.height = rig.cameraInRigSpaceHeight + height;
+        Vector3 capCenter = transform.InverseTransformVector(rig.cameraGameObject.transform.position);
+        character.center = new Vector3(capCenter.x, character.height/2 + character.skinWidth, capCenter.z);  
+    }
+
+    bool CheckIfGrounded()
+    {
+        Vector3 rayStart = transform.TransformPoint(character.center);
+        float rayLength = character.center.y + 0.01f;
+        bool hasHit = Physics.SphereCast(rayStart, character.radius, Vector3.down, out RaycastHit hitInfo, rayLength, groundLayer);
+        return hasHit;
+    }
+
 
     public void IncreaseSpeed()
     {
