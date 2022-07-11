@@ -42,18 +42,18 @@ public class ContinousMovement : MonoBehaviour
 
         character.Move(direction * Time.fixedDeltaTime * speed);
 
-        bool isGrounded = CheckIfGrounded();
+        //bool isGrounded = CheckIfGrounded();
 
-        if (isGrounded)
-        {
-            fallspeed = 0;
-        }
-        else
-        {
-            fallspeed += gravity * Time.fixedDeltaTime;
-        }
+        //if (isGrounded)
+        //{
+        //    fallspeed = 0;
+        //}
+        //else
+        //{
+        //    fallspeed += gravity * Time.fixedDeltaTime;
+        //}
         
-        character.Move(Vector3.up * fallspeed * Time.fixedDeltaTime);
+        //character.Move(Vector3.up * fallspeed * Time.fixedDeltaTime);
 
     }
 
