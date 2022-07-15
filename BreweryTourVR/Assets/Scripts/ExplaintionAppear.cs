@@ -19,9 +19,9 @@ public class ExplaintionAppear : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Player")
-        {
-            canvas.SetActive(false);
-        }
+        //if (other.gameObject.tag == "Player")
+        //{
+        //    canvas.SetActive(false);
+        //}
     }
 }
