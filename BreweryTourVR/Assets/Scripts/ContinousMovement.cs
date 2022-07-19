@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.UI;
 
 public class ContinousMovement : MonoBehaviour
 {
@@ -14,11 +15,13 @@ public class ContinousMovement : MonoBehaviour
     private CharacterController character;
 
     public float height = 0.2f;
-    public float speed = 1.0f;
+    public float speed = 10.0f;
     public float gravity = -9.81f;
     private float fallspeed;
 
     public LayerMask groundLayer;
+
+    public Text speedText;
     
     void Start()
     {
@@ -31,6 +34,7 @@ public class ContinousMovement : MonoBehaviour
     {
         InputDevice device = InputDevices.GetDeviceAtXRNode(inputSource);
         device.TryGetFeatureValue(CommonUsages.primary2DAxis, out inputAxis);
+        speedText.text = speed.ToString();
     }
 
     private void FixedUpdate()
@@ -75,15 +79,25 @@ public class ContinousMovement : MonoBehaviour
 
     public void IncreaseSpeed()
     {
+        if (speed < 20)
+            speed += 0.5f;
+        else
+            speed = 20f;
 
-        speed += 0.5f;
+        
+
 
         //Button Click to increase the speed 0.5f
     }
 
     public void DecreaseSpeed()
     {
-        speed -= 0.5f;
+        if (speed > 0)
+            speed -= 0.5f;
+        else
+            speed = 0f;
+
+        
         //button click to decrease the speed 0.5f
     }
 }
