@@ -19,6 +19,7 @@ public class UIInteractions : MonoBehaviour
         settingLayer.SetActive(false);        
         teleportLayer.SetActive(false);
         mainMenuLayer.SetActive(true);
+
     }
 
     private void Update()
