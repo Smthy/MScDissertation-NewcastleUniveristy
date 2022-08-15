@@ -5,15 +5,7 @@ using UnityEngine.UI;
 
 public class SettingsMenu : MonoBehaviour
 {
-    public Text[] text;
-
-    private void Awake()
-    {
-        if(text == null)
-        {
-            text = FindObjectsOfType<Text>();
-        }
-    }
+    public Text[] text;  
 
     public void TextToBlack()
     {

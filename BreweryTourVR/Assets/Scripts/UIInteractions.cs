@@ -10,6 +10,8 @@ public class UIInteractions : MonoBehaviour
     public CharacterController userController;
     public GameObject user;
     public Transform[] teleportTransforms;
+    public AudioListener audioListener;
+    public Text volumeText;
     
 
     private void Start()
@@ -17,6 +19,11 @@ public class UIInteractions : MonoBehaviour
         settingLayer.SetActive(false);        
         teleportLayer.SetActive(false);
         mainMenuLayer.SetActive(true);
+    }
+
+    private void Update()
+    {
+        volumeText.text = AudioListener.volume.ToString();
     }
 
     public void Close()
@@ -112,5 +119,35 @@ public class UIInteractions : MonoBehaviour
         userController.enabled = false;
         user.transform.position = teleportTransforms[8].transform.position;
         userController.enabled = true;
+    }
+
+    public AudioListener GetAudioListener()
+    {
+        return audioListener;
+    }
+
+    public void IncreaseAudio()
+    {
+        if(AudioListener.volume != 1)
+        {
+            AudioListener.volume += 0.1f;
+        }
+        else
+        {
+            AudioListener.volume = 1;
+        }      
+
+    }
+
+    public void DecreaseAudio()
+    {
+        if (AudioListener.volume != 0)
+        {
+            AudioListener.volume -= 0.1f;
+        }
+        else
+        {
+            AudioListener.volume = 0;
+        }
     }
 }
