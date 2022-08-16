@@ -122,6 +122,13 @@ public class UIInteractions : MonoBehaviour
         userController.enabled = true;
     }
 
+    public void Underback()
+    {
+        userController.enabled = false;
+        user.transform.position = teleportTransforms[9].transform.position;
+        userController.enabled = true;
+    }
+
     public AudioListener GetAudioListener()
     {
         return audioListener;
